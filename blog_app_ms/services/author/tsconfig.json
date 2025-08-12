@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    /* Basic Paths */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Language & Module System */
+    "target": "ES2020",
+    "module": "commonjs",
+
+    /* Node.js Compatibility */
+    "lib": ["esnext"],
+    "types": ["node"],
+
+    /* Useful Flags */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["dist", "node_modules"]
+}
